@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crypto Tool</title>
+        
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script type="text/javascript" src="assets/js/script.js"></script>
+    </head>
+    <body>
+    	<div class="container-1">
+    		<div class="box">
+    			<h1>Position Size Calculator</h1>
+ 			</div>
+    	</div>
+
+    	<div class="container">
+    		<div class="box">
+    			<label for="txtAccount">Account:</label>
+        		<input type="text" id="txtAccount" />
+ 			
+    			<label for="txtEntry">Entry:</label>
+        		<input type="text" id="txtEntry" />
+ 			
+    			<label for="txtExit">Exit %:</label>
+        		<input type="text" id="txtExit" />
+
+        		<select id="typeTrade">
+        			<option value="long">Long</option>
+        			<option value="short">Short</option>
+        		</select>
+ 			</div>
+    	</div>
+
+    	<div class="container">
+    		<div class="box">
+    			<!-- <h2>Position Size:</h2> -->
+        		<span id="spanSize"></span>
+ 			</div>
+    	</div>
+
+    	<div class="container">
+    		<div class="box">
+    			<button id="btnCalc">Calculate</button><button id="btnReset">Reset</button>
+ 			</div>
+    	</div>
+    </body>
+</html>
